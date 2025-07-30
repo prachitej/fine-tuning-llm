@@ -12,18 +12,15 @@ This project demonstrates fine-tuning a large language model for German-French t
 - Create an optimized translation model
 
 ## Project Structure
-
+<pre>  \```
 project/
-├── fine_tuning.ipynb          # Main implementation notebook
-├── data/                      # All dataset files
-│   ├── original/              # Original benchmark data
-│   │   ├── train_dataset_a.json
-│   │   ├── val_dataset_a.json
-│   │   └── test_dataset_a.json
-│   ├── synthetic/             # Generated data
-│   │   └── dataset_b.json
-│   └── processed/            # Combined datasets
-│       └── dataset_c.json
-├── app/                       # Interface implementation
-│   └── translation_ui.py      # Gradio app file
-└── README.md                  # Project documentation
+├── fine_tuning.ipynb               # Jupyter notebook with implementation
+├── data/                           # Dataset files
+│   ├── dataset_b.json              # Generated synthetic data
+│   ├── dataset_c.json              # Combined dataset of original and synthetic data
+│   ├── test_dataset_a.json         # Test data of the original benchmark dataset
+│   ├── train_dataset_a.json        # Train data of the original benchmark dataset
+│   └── val_dataset_a.json          # Val data of the original benchmark dataset
+├── app/                            # Gradio interface
+└── README.md
+\``` </pre>
