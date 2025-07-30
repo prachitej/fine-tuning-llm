@@ -12,7 +12,7 @@ This project demonstrates fine-tuning a large language model for German-French t
 - Create an optimized translation model
 
 ## Project Structure
-<pre>  \```
+<pre>
 project/
 ├── fine_tuning.ipynb               # Jupyter notebook with implementation
 ├── data/                           # Dataset files
@@ -23,4 +23,4 @@ project/
 │   └── val_dataset_a.json          # Val data of the original benchmark dataset
 ├── app/                            # Gradio interface
 └── README.md
-\``` </pre>
+</pre>
